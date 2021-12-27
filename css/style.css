@@ -1,0 +1,446 @@
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Lato;
+}
+header {
+    background: url(../images/Image.png) no-repeat center / cover !important;
+    height: 900px; 
+}
+
+.bax-nav {
+    width: 1060px;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: flex-end;
+}
+.box-container {
+    
+    padding-top: 56px;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400;    
+    font-size: 18px;
+    line-height: 24px;
+}
+.navbar-brand img{
+    width: 82px;
+    height: 31px;
+}
+
+.navbar-nav .nav-link:not(:last-child){
+    padding-right: 82px;
+}
+
+.box-discover {
+    width: 1085px;
+    margin-top: 182px;
+    color: white;
+}
+
+h1 {
+    width: 620px;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+
+.sub {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 400 "italic";
+    width: 546px;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 61px;
+}
+
+.vopros {
+    width: 1080px;
+    color: white;
+}
+
+.oval {
+    width: 20px;
+    height: 20px;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin-right: 23px;
+    margin-bottom: 24px;
+}
+
+.what {
+    font-weight: 500;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 24px;
+}
+
+.line {
+    width: 297px;
+    border-top: 3px solid white;
+    margin-bottom: 153px;
+}
+
+.button {
+    margin-left: 39px;
+    padding: 15px 39px;
+    background: #1B7DFF;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: yellow;
+    font-size: 30px;
+}
+
+.benefit {
+    width: 1262px;
+    height: 655px;
+    background: rgba(234, 231, 231, 0.95) !important;
+    margin-top: -140px;
+    
+}
+
+.odigo {
+    padding-top: 73px;
+    margin-left: 99px;
+    margin-bottom: 70px;
+}
+
+.lot{
+    margin-left: 100px; 
+}
+
+.build {
+    margin-bottom: 32px;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+}
+
+.subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 26px;
+    margin-bottom: 39px;
+}
+
+.more {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+span {
+    margin-left: 26px;
+}
+
+.more:hover,
+span:hover {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.alot {
+    margin-left: 50px;
+}
+
+.photo-title {
+    margin-top: 131px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+}
+ 
+.photo {
+    width: 1264px;
+}
+
+
+.photo-line {
+    border-top: 2px solid #006DFE;
+    width: 253px;
+    margin-top: 7px;
+    padding-left: 10px;
+}
+
+.photo-mount {
+    background: url(../images/Image-mount.png) no-repeat;
+    width: 619px;
+    height: 354px;
+    margin: 0;
+}
+
+.photo-kyoto {
+    background: url(../images/Image-kyoto.png);
+    width: 619px;
+    height: 354px;
+}
+
+.photo-ti {
+    position: absolute;
+    bottom: 27px;
+    left: 40px;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 60px;
+}
+
+.photo-tokyo {
+    background: url(../images/Image-tokyo.png) no-repeat center / cover; 
+    width: 550px;
+    height: 300px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+.photo-niigata {
+    background: url(../images/Imag5.png) no-repeat center / cover;  
+    width: 550px !important;
+    height: 300px;
+    position: absolute;
+    right: 190px;
+}
+   
+
+.photo-width {
+    width: 1150px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 130px;
+}
+
+.focus .focus-kyoto {
+    margin-top: 320px;
+}
+
+.focus h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    color: #102746;
+    margin-top: 20px;
+}
+
+.focus .subtitle {
+    margin-top: 85px;
+    margin-bottom: 58px;
+}
+
+.focus .focus-tottori {
+    margin-top: 100px;
+}
+
+.focus .focus-tottori h3 {
+    width: 357px;
+}
+
+.focus .focus-tottori .subtitle {
+    margin-top: 65px;
+    margin-bottom: 48px;
+}
+
+.focus {
+    margin-bottom: 139px;
+}
+
+.place .photo-line {
+    margin-bottom: 54px;
+}
+ 
+.place .place-nagoya {
+    background: url(../images/nagoya.png);
+    height: 378px;
+    padding: 0!important;
+    margin-right: 10px;
+    
+}
+
+.place .place-niigata {
+    background: url(../images/niigata\ 001.png);
+    height: 378px;
+    padding: 0 !important;
+}
+
+.place .place-osaka {
+    background: url(../images/osaka.png);
+    width: 377px;
+    height: 378px;
+    padding: 0 !important;
+    position: absolute;
+    right: 174px;
+}
+
+
+.place .row {
+    padding: 0;
+}
+
+.max {
+    height: 55px;
+    background: rgba(21, 24, 36, 0.6);
+    margin-top: 85%;
+    display: none;
+}
+
+.place-nagoya:hover .max,
+.place-niigata:hover .max,
+.place-osaka:hover .max,
+.place-saitama:hover .max,
+.place-ueno:hover .max,
+.place-shibuya:hover .max {
+    display: block;
+}
+
+.likes {
+    align-items: flex-end;
+    position: absolute;
+    bottom: 15px;
+    color: white;
+
+}
+
+.max h4 {
+    text-transform: uppercase;    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-right: 140px;
+
+}
+
+.place .d-flex {
+    margin: 15px 25px 0;
+}
+
+.switch {
+    background: #006DFE;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+    padding: 12px 20px;
+    margin-top: 31px;
+}
+
+.switch:hover {
+    text-decoration: none;
+    color: aqua;
+}
+
+.places {
+    margin-top: 70px;
+}
+
+.place-saitama {
+    background: url(../images/saitama.png);
+    width: 377px;
+    height: 377px;
+    padding: 0 !important;
+    margin-right: 10px;
+}
+
+.place-ueno {
+    background: url(../images/ueno.png);
+    width: 377px;
+    height: 377px;
+    padding: 0 !important;
+}
+
+.place-shibuya {
+    background: url(../images/shibuya.png);
+    width: 377px;
+    height: 377px;
+    padding: 0 !important;
+    position: absolute;
+    right: 174px;
+}
+
+.place-shibuya h4 {
+    margin-right: 130px;
+}
+
+.video img {
+   width: 112px;
+   height: 112px;
+}
+
+.video {
+    background: url(../images/footer.png);
+    width: 100%;
+    height: 609px;
+    margin-top: 150px ;
+}
+
+footer {
+    width: 100%;
+    height: 400px;
+    background: #0E1D28;
+}
+
+.foot {
+    padding-top: 118px;
+}
+
+.foot img {
+    margin-right: 356px;
+}
+
+.foot ul {
+    list-style: none;
+}
+
+.foot li {
+    color: white;  
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.max .adtiction {
+    margin-left: 20px;
+}
+
+.likes-number{
+    display: flex;
+}
